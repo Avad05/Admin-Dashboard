@@ -73,3 +73,38 @@ body{
   margin-right: 25px;
 }
 
+/*header begins */
+.upper{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 90px;
+  align-items: center;
+}
+.upper img{
+  height: 50px;
+  border-radius: 80px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+}
+.search-bar i{
+  font-size: 30px;
+}
+#search{
+  width: 700px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: lightgrey;
+  border: 0;
+}
+.two{
+  display: flex;
+  font-size: 30px;
+  gap: 25px;
+  align-items: center;
+  
+}
+
