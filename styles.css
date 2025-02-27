@@ -24,7 +24,8 @@ body{
 .header{
   display: grid;
   grid-template-rows: 1fr 1fr;
-  background-color: aquamarine;
+  background-color: white;
+  box-shadow: 2px 2px 19px  black;
 } 
 .main-content{
   display: grid;
@@ -93,9 +94,12 @@ body{
 .search-bar i{
   font-size: 30px;
 }
+
 #search{
   width: 700px;
-  height: 25px;
+  height: 29px;
+  padding-left: 15px;
+  font-size: 16px;
   border-radius: 30px;
   background-color: lightgrey;
   border: 0;
@@ -107,4 +111,45 @@ body{
   align-items: center;
   
 }
-
+.greeting img{
+  height: 75px;
+  border-radius: 80px;
+}
+.lower{
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 90px;
+  align-items: center;
+}
+.greeting{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.three>h3+p{
+   margin: 0px;
+   padding: 0px;
+}
+.three > p{
+  font-size: 30px;
+  height: 40px;
+}
+.buttons{
+  display: flex;
+  gap: 40px;
+}
+.buttons > button{
+  color: white;
+  background-color: rgb(16, 140, 202);
+  font-size: 18px;
+  height:40px;
+  border-radius: 20px;
+  width: 99px;
+  border: 0px;
+}
